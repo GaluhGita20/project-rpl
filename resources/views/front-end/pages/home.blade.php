@@ -75,7 +75,8 @@ $page = "Home";
           <div class="single-service" style="height: 286px;">
               <!-- Icon -->
               <div class="icon">
-                  <img src="/assets/img/icon/service-1.svg" class="svg" alt="">
+                <!-- Pentingg!!! Belum input icon -->
+                  <img src="/assets/img/icon/icon-1.svg" class="svg" alt="">
               </div>
               <!-- End Icon -->
 
@@ -93,14 +94,15 @@ $page = "Home";
           <div class="single-service" style="height: 286px;">
               <!-- Icon -->
               <div class="icon">
-                  <img src="assets/img/icon/service-2.svg" class="svg" alt="">
+                <!-- Pentingg!!! Belum input icon -->
+                <img src="assets/img/icon/icon-2.svg" class="svg" alt="">
               </div>
               <!-- End Icon -->
 
               <!-- Content -->
               <div class="content">
-                  <h3><a href="service-details.html">Second Activity</a></h3>
-                  <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec pharetra faucibus.</p>
+                <h3><a href="service-details.html">Second Activity</a></h3>
+                <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec pharetra faucibus.</p>
               </div>
               <!-- End Content -->
           </div>
@@ -111,14 +113,15 @@ $page = "Home";
           <div class="single-service" style="height: 286px;">
               <!-- Icon -->
               <div class="icon">
-                  <img src="assets/img/icon/service-3.svg" class="svg" alt="">
+                <!-- Pentingg!!! Belum input icon -->
+                <img src="assets/img/icon/icon-3.svg" class="svg" alt="">
               </div>
               <!-- End Icon -->
 
               <!-- Content -->
               <div class="content">
-                  <h3><a href="service-details.html">Third Activity</a></h3>
-                  <p>Cras eu elit congue, placerat dui ut, crew tincidunt nisl. Nulla leo elit, pharetra bibendum justo.</p>
+                <h3><a href="service-details.html">Third Activity</a></h3>
+                <p>Cras eu elit congue, placerat dui ut, crew tincidunt nisl. Nulla leo elit, pharetra bibendum justo.</p>
               </div>
               <!-- End Content -->
           </div>
@@ -144,6 +147,7 @@ $page = "Home";
       <div class="col-lg-5">
         <!-- Feature Image -->
         <div class="mb-50 mb-lg-0">
+          <!-- Belum input gambar -->
           <img src="assets/img/feature/feature-1.png" alt="">
         </div>
         <!-- End Feature Image -->
@@ -173,25 +177,26 @@ $page = "Home";
 
     <div class="row pb-140">
       <div class="col-lg-6">
-          <!-- Section Title -->
-          <div class="section-title style--two">
-              <div class="title-border">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-              </div>
-              <h2>Second Activity Explanation<br>
-              "All Lorem Ipsum"</h2>
-              <p><b>Eveniet labore quia facere modi magnam vero soluta vitae excepturi adipisci quae perferendis repudiandae</b></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, maiores eveniet dolorum inventore repellendus rem voluptatum asperiores, cupiditate eaque, exercitationem explicabo! Suscipit eveniet doloremque adipisci minima perspiciatis nulla obcaecati iure.</p>
-          </div>
-          <!-- End Section Title -->
+        <!-- Section Title -->
+        <div class="section-title style--two">
+            <div class="title-border">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h2>Second Activity Explanation<br>
+            "All Lorem Ipsum"</h2>
+            <p><b>Eveniet labore quia facere modi magnam vero soluta vitae excepturi adipisci quae perferendis repudiandae</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, maiores eveniet dolorum inventore repellendus rem voluptatum asperiores, cupiditate eaque, exercitationem explicabo! Suscipit eveniet doloremque adipisci minima perspiciatis nulla obcaecati iure.</p>
+        </div>
+        <!-- End Section Title -->
       
-          <a href="#" class="btn-inline mt-10">Read More</a>
+        <a href="#" class="btn-inline mt-10">Read More</a>
       </div>
       <div class="col-lg-6 order-first order-lg-last">
         <!-- Feature Image -->
         <div class="mb-50 mb-lg-0">
+          <!-- Belum input gambar -->
           <img src="assets/img/feature/feature-2.png" alt="">
         </div>
         <!-- End Feature Image -->
@@ -200,22 +205,23 @@ $page = "Home";
 
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-5">
-          <!-- Feature Image -->
-          <div class="mb-50 mb-lg-0">
-              <img src="assets/img/feature/feature-3.png" alt="">
-          </div>
-          <!-- End Feature Image -->
+        <!-- Feature Image -->
+        <div class="mb-50 mb-lg-0">
+          <!-- Belum input gambar -->
+          <img src="assets/img/feature/feature-3.png" alt="">
+        </div>
+        <!-- End Feature Image -->
       </div>
       <div class="col-lg-6">
         <!-- Section Title -->
         <div class="section-title style--two">
-            <div class="title-border">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <h2>Second Activity Explanation</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sequi facilis alias similique numquam.</p>
+          <div class="title-border">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>Second Activity Explanation</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sequi facilis alias similique numquam.</p>
         </div>
         <!-- End Section Title -->
   

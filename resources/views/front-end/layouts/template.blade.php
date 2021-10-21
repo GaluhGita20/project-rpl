@@ -24,7 +24,7 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="/css/bootstrap-icons.css"> -->
 
     <!-- ======= Bootstrap CSS ======= -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -59,7 +59,7 @@
   
 
   <!-- Back to Top Button -->
-  <a href="#" class="back-to-top">
+  <a href="#" class="back-to-top" style="background-color: rgba(47, 57, 84, 0.6);">
       <i class="fas fa-angle-up"></i>
   </a>
 

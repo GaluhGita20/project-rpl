@@ -9,6 +9,7 @@ main{
   width: 100%;
   overflow-x: hidden;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;

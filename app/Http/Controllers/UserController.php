@@ -11,4 +11,9 @@ class UserController extends Controller
     {
         return view('front-end.pages.home');
     }
+
+    public function view_login()
+    {
+        return view('front-end.pages.login');
+    }
 }
