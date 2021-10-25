@@ -16,4 +16,14 @@ class UserController extends Controller
     {
         return view('front-end.pages.login');
     }
+
+    public function view_forum()
+    {
+        return view('front-end.pages.main-forum');
+    }
+
+    public function view_list_topics()
+    {
+        return view('front-end.pages.list-topics');
+    }
 }

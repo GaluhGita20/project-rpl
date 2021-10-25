@@ -17,4 +17,5 @@ use App\Http\Controllers\UserController;
 Route::prefix('')->group(function(){
     Route::get('/', [UserController::class,'view_home'])->name('home');
     Route::get('/login', [UserController::class,'view_login'])->name('login');
+    Route::get('/forum', [UserController::class,'view_forum'])->name('mainForum');
 });
