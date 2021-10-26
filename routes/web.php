@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
-/* use Illuminate\Support\Facades\Auth; */
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegistrationController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,17 +17,21 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::prefix('')->middleware('guest')->group(function(){
+/* Route::prefix('')->middleware('guest')->group(function(){ */
+Route::prefix('')->group(function(){
     Route::get('/', [UserController::class,'view_home'])->name('home');
     Route::get('/login', [UserController::class,'view_login'])->name('login');
-    Route::post('/add-new-account', [UserController::class,'save_register'])->name('add-data-user');
-    Route::post('/login-account', [UserController::class,'login_account'])->name('login-user');
-});
 
-Route::prefix('logged')->middleware('auth')->group(function() {
-    Route::get('/landing-page', [UserController::class, 'landing-page'])->name('landing_page');
-});
+    Route::post('/add-new-account', [RegistrationController::class,'save_register'])->name('addDataUser');
+    Route::post('/login-account', [LoginController::class,'login_account'])->name('loginUser');
+
     Route::get('/forum', [UserController::class,'view_forum'])->name('mainForum');
+    Route::get('/landing-page', [UserController::class, 'landing-page'])->name('landingPage');
     Route::get('/list-topics', [UserController::class,'view_listTopic'])->name('listTopic');
     Route::get('/diskusi-topik', [UserController::class,'view_diskusiTopic'])->name('diskusiTopic');
+});
+
+
+Route::prefix('logged')->middleware('auth')->group(function() {
+    Route::get('/forum', [UserController::class,'view_forum'])->name('mainForum');
 });

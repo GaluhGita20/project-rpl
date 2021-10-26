@@ -73,11 +73,11 @@
                 <!-- /FORM BOX TITLE -->
 
                 <!-- FORM -->
-                <form action="{{ route('login-user') }}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('loginUser') }}" method="POST" enctype="multipart/form-data">
+                    @csrf
                     @if (Session::get('fail'))
                         <div class="alert alert-danger"> {{ Session::get('fail') }}</div>
                     @endif
-                    @csrf
                     <form class="form">
                         <!-- FORM ROW -->
                         <div class="form-row">
@@ -116,7 +116,7 @@
                             <div class="form-item">
                                 <!-- CHECKBOX WRAP -->
                                 <div class="checkbox-wrap">
-                                    <input type="checkbox" id="login-remember" name="login_remember" checked>
+                                    <input type="checkbox" id="login-remember" name="login_remember">
                                     <!-- CHECKBOX BOX -->
                                     <div class="checkbox-box">
                                         <!-- ICON CROSS -->
@@ -219,7 +219,7 @@
 
                 {{-- Bagian ini dalam pemberian error validation masih tidak dapat dijalankan, gricowijaya 25 Oct 2021 --}}
                 <!-- FORM -->
-                <form action="{{ route('add-data-user') }}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('addDataUser') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <form class="form">
                         <!-- FORM ROW -->
