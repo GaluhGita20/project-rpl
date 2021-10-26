@@ -31,7 +31,7 @@
         <!-- /SECTION FILTERS BAR TITLE -->
 
         <!-- SECTION FILTERS BAR TEXT -->
-        <p class="section-filters-bar-text">Kategori terakhir ditambahkan oleh <a class="highlighted" href="forums-category.html">Admin</a> pada 2 minggu yang lalu</p>
+        <p class="section-filters-bar-text">Kategori terakhir ditambahkan oleh <a class="highlighted" href="#">Admin</a> pada 2 minggu yang lalu</p>
         <!-- /SECTION FILTERS BAR TEXT -->
       </div>
       <!-- /SECTION FILTERS BAR INFO -->
@@ -124,11 +124,11 @@
             <!-- FORUM CATEGORY INFO -->
             <div class="forum-category-info">
               <!-- FORUM CATEGORY TITLE -->
-              <p class="forum-category-title"><a href="#">Community Hangout</a></p>
+              <p class="forum-category-title"><a href="{{Route('listTopic')}}">Bencana Alam di Indonesia</a></p>
               <!-- /FORUM CATEGORY TITLE -->
 
               <!-- FORUM CATEGORY TEXT -->
-              <p class="forum-category-text">A place for the community to talk and chat about whatever they want!</p>
+              <p class="forum-category-text">Menyoroti bencana yang terjadi di negara tercinta kita, memberikan informasi berita dan solusi bantuan bagi saudara kita yang terkena dampak bencana.</p>
               <!-- /FORUM CATEGORY TEXT -->
             </div>
             <!-- /FORUM CATEGORY INFO -->
@@ -156,15 +156,15 @@
         <!-- TABLE COLUMN -->
         <div class="table-column padded-big-left">
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">What's your favourite food in the world?</a>
+          <a class="table-link" href="#">Yuk bantu saudara kita yang terdampak banjir di Kalimantan Selatan.</a>
           <!-- /TABLE LINK -->
 
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">Share a picture of your city or town and let's travel together!</a>
+          <a class="table-link" href="#">Gunung Semeru aktif kembali! Siaga meletus!</a>
           <!-- /TABLE LINK -->
 
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">Do you think we'll ever get flying cars in the future?</a>
+          <a class="table-link" href="#">Gempa Mamuju dan Majene</a>
           <!-- /TABLE LINK -->
         </div>
         <!-- /TABLE COLUMN -->
@@ -186,11 +186,11 @@
             <!-- FORUM CATEGORY INFO -->
             <div class="forum-category-info">
               <!-- FORUM CATEGORY TITLE -->
-              <p class="forum-category-title"><a href="#">The Arcade</a></p>
+              <p class="forum-category-title"><a href="{{Route('listTopic')}}">Peduli Lingkungan</a></p>
               <!-- /FORUM CATEGORY TITLE -->
 
               <!-- FORUM CATEGORY TEXT -->
-              <p class="forum-category-text">Everything about the gaming world! News, reviews, upcoming games and more!</p>
+              <p class="forum-category-text">Membahas perubahan di lingkungan sekitar kita dan meningkatkan upaya pencegahan kerusakan alam!</p>
               <!-- /FORUM CATEGORY TEXT -->
             </div>
             <!-- /FORUM CATEGORY INFO -->
@@ -218,15 +218,15 @@
         <!-- TABLE COLUMN -->
         <div class="table-column padded-big-left">
           <!-- TABLE LINK -->
-          <a class="table-link" href="forums-discussion.html">Post your GTE V character photo and vote for the best!</a>
+          <a class="table-link" href="#">Diskusi bebas yuk bahas target usia bumi:)
           <!-- /TABLE LINK -->
 
           <!-- TABLE LINK -->
-          <a class="table-link" href="forums-discussion.html">Does anyone know how to capture Mewthree?</a>
+          <a class="table-link" href="#">Inspirasi baru dalam solusi mengenai sampah</a>
           <!-- /TABLE LINK -->
 
           <!-- TABLE LINK -->
-          <a class="table-link" href="forums-discussion.html">Super Brawl Bross tournament. Sign up right here!</a>
+          <a class="table-link" href="#">Gerakan menanam pohon kembali dan penghijauan di alam bebas.</a>
           <!-- /TABLE LINK -->
         </div>
         <!-- /TABLE COLUMN -->
@@ -248,11 +248,11 @@
             <!-- FORUM CATEGORY INFO -->
             <div class="forum-category-info">
               <!-- FORUM CATEGORY TITLE -->
-              <p class="forum-category-title"><a href="#">Cosplayers of the World</a></p>
+              <p class="forum-category-title"><a href="{{Route('listTopic')}}">Peduli Sosial</a></p>
               <!-- /FORUM CATEGORY TITLE -->
 
               <!-- FORUM CATEGORY TEXT -->
-              <p class="forum-category-text">A place for the community to talk and chat about whatever they want!</p>
+              <p class="forum-category-text">Menawarkan bantuan dalam hubungan peduli antar sesama yang membutuhkan</p>
               <!-- /FORUM CATEGORY TEXT -->
             </div>
             <!-- /FORUM CATEGORY INFO -->
@@ -280,15 +280,15 @@
         <!-- TABLE COLUMN -->
         <div class="table-column padded-big-left">
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">Introduce yourself and show us your cosplays!</a>
+          <a class="table-link" href="#">Donasi ke penderita kanker, ulurkan tanganmu untuk saudara kita</a>
           <!-- /TABLE LINK -->
 
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">Show your progress. Post a photo of your first and last cosplay</a>
+          <a class="table-link" href="#">Menawarkan bantuan tunawisma di Indonesia</a>
           <!-- /TABLE LINK -->
 
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">Tips on how to build a resistant yet light armor</a>
+          <a class="table-link" href="#">Club anti bullying yuk basmi habis</a>
           <!-- /TABLE LINK -->
         </div>
         <!-- /TABLE COLUMN -->
@@ -310,19 +310,19 @@
             <!-- FORUM CATEGORY INFO -->
             <div class="forum-category-info">
               <!-- FORUM CATEGORY TITLE -->
-              <p class="forum-category-title"><a href="#">Animation Watchtower</a></p>
+              <p class="forum-category-title"><a href="{{Route('listTopic')}}">Bencana Alam di Indonesia</a></p>
               <!-- /FORUM CATEGORY TITLE -->
 
               <!-- FORUM CATEGORY TEXT -->
-              <p class="forum-category-text">Everything about the gaming world! News, reviews, upcoming games and more!</p>
+              <p class="forum-category-text">Menyoroti bencana yang terjadi di negara tercinta kita, memberikan informasi berita dan solusi bantuan bagi saudara kita yang terkena dampak bencana.</p>
               <!-- /FORUM CATEGORY TEXT -->
 
               <!-- FORUM CATEGORY LINK -->
-              <p class="forum-category-link"><a href="#">Comics</a></p>
+              <!-- <p class="forum-category-link"><a href="#">Comics</a></p> -->
               <!-- /FORUM CATEGORY LINK -->
 
               <!-- FORUM CATEGORY LINK -->
-              <p class="forum-category-link"><a href="#">Anime &amp; Manga</a></p>
+              <!-- <p class="forum-category-link"><a href="#">Anime &amp; Manga</a></p> -->
               <!-- /FORUM CATEGORY LINK -->
             </div>
             <!-- /FORUM CATEGORY INFO -->
@@ -350,77 +350,15 @@
         <!-- TABLE COLUMN -->
         <div class="table-column padded-big-left">
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">Bebop Publishing will release a limited edition of "Justice"</a>
+          <a class="table-link" href="#">Yuk bantu saudara kita yang terdampak banjir di Kalimantan Selatan.</a>
           <!-- /TABLE LINK -->
 
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">Come and discuss that new "Power X" transformation</a>
+          <a class="table-link" href="#">Gunung Semeru aktif kembali! Siaga meletus!</a>
           <!-- /TABLE LINK -->
 
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">This is the first image of the new "Multiverse" movie!</a>
-          <!-- /TABLE LINK -->
-        </div>
-        <!-- /TABLE COLUMN -->
-      </div>
-      <!-- /TABLE ROW -->
-
-      <!-- TABLE ROW -->
-      <div class="table-row big">
-        <!-- TABLE COLUMN -->
-        <div class="table-column">
-          <!-- FORUM CATEGORY -->
-          <div class="forum-category">
-            <!-- FORUM CATEGORY IMAGE -->
-            <a href="#">
-              <img class="forum-category-image" src="asset/forum/profil-categories.jpg" style="width:64px; height:64px;" alt="category-05">
-            </a>
-            <!-- /FORUM CATEGORY IMAGE -->
-
-            <!-- FORUM CATEGORY INFO -->
-            <div class="forum-category-info">
-              <!-- FORUM CATEGORY TITLE -->
-              <p class="forum-category-title"><a href="#">Live Streamers Unite!</a></p>
-              <!-- /FORUM CATEGORY TITLE -->
-
-              <!-- FORUM CATEGORY TEXT -->
-              <p class="forum-category-text">A place for the community to talk and chat about whatever they want!</p>
-              <!-- /FORUM CATEGORY TEXT -->
-            </div>
-            <!-- /FORUM CATEGORY INFO -->
-          </div>
-          <!-- /FORUM CATEGORY -->
-        </div>
-        <!-- /TABLE COLUMN -->
-
-        <!-- TABLE COLUMN -->
-        <div class="table-column centered padded-medium">
-          <!-- TABLE TITLE -->
-          <p class="table-title">107</p>
-          <!-- /TABLE TITLE -->
-        </div>
-        <!-- /TABLE COLUMN -->
-
-        <!-- TABLE COLUMN -->
-        <div class="table-column centered padded-medium">
-          <!-- TABLE TITLE -->
-          <p class="table-title">454</p>
-          <!-- /TABLE TITLE -->
-        </div>
-        <!-- /TABLE COLUMN -->
-
-        <!-- TABLE COLUMN -->
-        <div class="table-column padded-big-left">
-          <!-- TABLE LINK -->
-          <a class="table-link" href="#">Starting your stream? Here are some tips for you!</a>
-          <!-- /TABLE LINK -->
-
-          <!-- TABLE LINK -->
-          <a class="table-link" href="#">Charity Runs: Complete list of upcoming charity runs streams</a>
-          <!-- /TABLE LINK -->
-
-          <!-- TABLE LINK -->
-          <a class="table-link" href="#">What do you think about the newest "CaptainS" rebranding?</a>
+          <a class="table-link" href="#">Gempa Mamuju dan Majene</a>
           <!-- /TABLE LINK -->
         </div>
         <!-- /TABLE COLUMN -->
@@ -435,18 +373,18 @@
           <div class="forum-category">
             <!-- FORUM CATEGORY IMAGE -->
             <a href="#">
-              <img class="forum-category-image" src="asset/forum/profil-categories.jpg" style="width:64px; height:64px;" alt="category-06">
+              <img class="forum-category-image" src="asset/forum/profil-categories.jpg" style="width:64px; height:64px;" alt="category-02">
             </a>
             <!-- /FORUM CATEGORY IMAGE -->
 
             <!-- FORUM CATEGORY INFO -->
             <div class="forum-category-info">
               <!-- FORUM CATEGORY TITLE -->
-              <p class="forum-category-title"><a href="#">The Jukebox</a></p>
+              <p class="forum-category-title"><a href="{{Route('listTopic')}}">Peduli Lingkungan</a></p>
               <!-- /FORUM CATEGORY TITLE -->
 
               <!-- FORUM CATEGORY TEXT -->
-              <p class="forum-category-text">Everything about the gaming world! News, reviews, upcoming games and more!</p>
+              <p class="forum-category-text">Membahas perubahan di lingkungan sekitar kita dan meningkatkan upaya pencegahan kerusakan alam!</p>
               <!-- /FORUM CATEGORY TEXT -->
             </div>
             <!-- /FORUM CATEGORY INFO -->
@@ -458,7 +396,7 @@
         <!-- TABLE COLUMN -->
         <div class="table-column centered padded-medium">
           <!-- TABLE TITLE -->
-          <p class="table-title">8</p>
+          <p class="table-title">23</p>
           <!-- /TABLE TITLE -->
         </div>
         <!-- /TABLE COLUMN -->
@@ -466,7 +404,7 @@
         <!-- TABLE COLUMN -->
         <div class="table-column centered padded-medium">
           <!-- TABLE TITLE -->
-          <p class="table-title">21</p>
+          <p class="table-title">109</p>
           <!-- /TABLE TITLE -->
         </div>
         <!-- /TABLE COLUMN -->
@@ -474,15 +412,77 @@
         <!-- TABLE COLUMN -->
         <div class="table-column padded-big-left">
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">Ju Fighters will tour North America in Q4 2020</a>
+          <a class="table-link" href="#">Diskusi bebas yuk bahas target usia bumi:)
           <!-- /TABLE LINK -->
 
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">Recommend a song for...commuting to work (GAME)</a>
+          <a class="table-link" href="#">Inspirasi baru dalam solusi mengenai sampah</a>
           <!-- /TABLE LINK -->
 
           <!-- TABLE LINK -->
-          <a class="table-link" href="#">I'm selling my Flying X guitar. Come and take a look!</a>
+          <a class="table-link" href="#">Gerakan menanam pohon kembali dan penghijauan di alam bebas.</a>
+          <!-- /TABLE LINK -->
+        </div>
+        <!-- /TABLE COLUMN -->
+      </div>
+      <!-- /TABLE ROW -->
+
+      <!-- TABLE ROW -->
+      <div class="table-row big">
+        <!-- TABLE COLUMN -->
+        <div class="table-column">
+          <!-- FORUM CATEGORY -->
+          <div class="forum-category">
+            <!-- FORUM CATEGORY IMAGE -->
+            <a href="#">
+              <img class="forum-category-image" src="asset/forum/profil-categories.jpg" style="width:64px; height:64px;" alt="category-03">
+            </a>
+            <!-- /FORUM CATEGORY IMAGE -->
+
+            <!-- FORUM CATEGORY INFO -->
+            <div class="forum-category-info">
+              <!-- FORUM CATEGORY TITLE -->
+              <p class="forum-category-title"><a href="{{Route('listTopic')}}">Peduli Sosial</a></p>
+              <!-- /FORUM CATEGORY TITLE -->
+
+              <!-- FORUM CATEGORY TEXT -->
+              <p class="forum-category-text">Menawarkan bantuan dalam hubungan peduli antar sesama yang membutuhkan</p>
+              <!-- /FORUM CATEGORY TEXT -->
+            </div>
+            <!-- /FORUM CATEGORY INFO -->
+          </div>
+          <!-- /FORUM CATEGORY -->
+        </div>
+        <!-- /TABLE COLUMN -->
+
+        <!-- TABLE COLUMN -->
+        <div class="table-column centered padded-medium">
+          <!-- TABLE TITLE -->
+          <p class="table-title">19</p>
+          <!-- /TABLE TITLE -->
+        </div>
+        <!-- /TABLE COLUMN -->
+
+        <!-- TABLE COLUMN -->
+        <div class="table-column centered padded-medium">
+          <!-- TABLE TITLE -->
+          <p class="table-title">56</p>
+          <!-- /TABLE TITLE -->
+        </div>
+        <!-- /TABLE COLUMN -->
+
+        <!-- TABLE COLUMN -->
+        <div class="table-column padded-big-left">
+          <!-- TABLE LINK -->
+          <a class="table-link" href="#">Donasi ke penderita kanker, ulurkan tanganmu untuk saudara kita</a>
+          <!-- /TABLE LINK -->
+
+          <!-- TABLE LINK -->
+          <a class="table-link" href="#">Menawarkan bantuan tunawisma di Indonesia</a>
+          <!-- /TABLE LINK -->
+
+          <!-- TABLE LINK -->
+          <a class="table-link" href="#">Club anti bullying yuk basmi habis</a>
           <!-- /TABLE LINK -->
         </div>
         <!-- /TABLE COLUMN -->

@@ -9,7 +9,7 @@
   <!-- MENU -->
   <ul class="menu small">
     <!-- DASHBOARD-->
-    <li class="menu-item">
+    <li class="menu-item {{ $page== 'dashboard' ? 'active' : '' }}">
       <!-- MENU ITEM LINK -->
       <a class="menu-item-link text-tooltip-tfr" href="#" data-title="Dashboard">
         <!-- MENU ITEM LINK ICON -->
@@ -22,9 +22,9 @@
     </li>
 
     <!-- FORUM -->
-    <li class="menu-item active">
+    <li class="menu-item {{ $page== 'forum' ? 'active' : '' }}">
       <!-- MENU ITEM LINK -->
-      <a class="menu-item-link text-tooltip-tfr" href="#" data-title="Forums">
+      <a class="menu-item-link text-tooltip-tfr" href="{{Route('mainForum')}}" data-title="Forums">
         <!-- MENU ITEM LINK ICON -->
         <svg class="menu-item-link-icon icon-forums">
           <use xlink:href="#svg-forums"></use>
@@ -145,7 +145,7 @@
   <!-- MENU -->
   <ul class="menu">
     <!-- DASHBOARD-->
-    <li class="menu-item">
+    <li class="menu-item {{ $page== 'dashboard' ? 'active' : '' }}">
       <!-- MENU ITEM LINK -->
       <a class="menu-item-link" href="#">
         <!-- MENU ITEM LINK ICON -->
@@ -160,9 +160,9 @@
     <!-- /MENU ITEM -->
 
     <!-- FORUMS -->
-    <li class="menu-item active">
+    <li class="menu-item {{ $page== 'forum' ? 'active' : '' }}">
       <!-- MENU ITEM LINK -->
-      <a class="menu-item-link" href="#">
+      <a class="menu-item-link" href="{{Route('mainForum')}}">
         <!-- MENU ITEM LINK ICON -->
         <svg class="menu-item-link-icon icon-forums">
           <use xlink:href="#svg-forums"></use>
@@ -304,7 +304,7 @@
   <!-- MENU -->
   <ul class="menu">
     <!-- MENU ITEM -->
-    <li class="menu-item">
+    <li class="menu-item {{ $page== 'dashboard' ? 'active' : '' }}">
       <!-- MENU ITEM LINK -->
       <a class="menu-item-link" href="#">
         <!-- MENU ITEM LINK ICON -->
@@ -319,9 +319,9 @@
     <!-- /MENU ITEM -->
 
     <!-- MENU ITEM -->
-    <li class="menu-item active">
+    <li class="menu-item {{ $page== 'forum' ? 'active' : '' }}">
       <!-- MENU ITEM LINK -->
-      <a class="menu-item-link" href="#">
+      <a class="menu-item-link" href="{{Route('mainForum')}}">
         <!-- MENU ITEM LINK ICON -->
         <svg class="menu-item-link-icon icon-forums">
           <use xlink:href="#svg-forums"></use>

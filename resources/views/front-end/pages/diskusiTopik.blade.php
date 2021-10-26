@@ -1,5 +1,5 @@
 <?php
-$title = "List Topics";
+$title = "Diskusi Topic";
 $page = "forum";
 ?>
 
@@ -10,7 +10,7 @@ $page = "forum";
 
 
 
-@include('front-end.components.list-topics')
+@include('front-end.components.diskusiTopik')
 
 
 @endsection

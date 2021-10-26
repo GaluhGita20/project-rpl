@@ -18,4 +18,6 @@ Route::prefix('')->group(function(){
     Route::get('/', [UserController::class,'view_home'])->name('home');
     Route::get('/login', [UserController::class,'view_login'])->name('login');
     Route::get('/forum', [UserController::class,'view_forum'])->name('mainForum');
+    Route::get('/list-topics', [UserController::class,'view_listTopic'])->name('listTopic');
+    Route::get('/diskusi-topik', [UserController::class,'view_diskusiTopic'])->name('diskusiTopic');
 });
