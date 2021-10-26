@@ -19,7 +19,7 @@
                     <a href="/">Home</a>
                 </li>          
                 <li class="menu-item-has-children">
-                    <a href="#">Forum</a>
+                    <a href="{{Route('mainForum')}}">Forum</a>
                 </li>
                 <li class="menu-item-has-children">
                     <a href="#">Pages</a>

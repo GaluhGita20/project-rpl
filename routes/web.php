@@ -25,3 +25,7 @@ Route::prefix('')->middleware('guest')->group(function(){
 Route::prefix('logged')->middleware('auth')->group(function() {
     Route::get('/landing-page', [UserController::class, 'landing-page'])->name('landing_page');
 });
+    Route::get('/forum', [UserController::class,'view_forum'])->name('mainForum');
+    Route::get('/list-topics', [UserController::class,'view_listTopic'])->name('listTopic');
+    Route::get('/diskusi-topik', [UserController::class,'view_diskusiTopic'])->name('diskusiTopic');
+});

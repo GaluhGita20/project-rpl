@@ -62,5 +62,18 @@ class UserController extends Controller
         return back()->withErrors([
             'email' => 'The provided credentials do not match our records.',
         ]);
+    public function view_forum()
+    {
+        return view('front-end.pages.main-forum');
+    }
+
+    public function view_listTopic()
+    {
+        return view('front-end.pages.list-topics');
+    }
+
+    public function view_diskusiTopic()
+    {
+        return view('front-end.pages.diskusiTopik');
     }
 }
