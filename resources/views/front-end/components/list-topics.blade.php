@@ -124,7 +124,7 @@
           <!-- DISCUSSION PREVIEW -->
           <div class="discussion-preview pinned">
             <!-- DISCUSSION PREVIEW TITLE -->
-            <a class="discussion-preview-title" href="#">Membahas perubahan di lingkungan sekitar kita dan meningkatkan upaya pencegahan kerusakan alam!</a>
+            <a class="discussion-preview-title" href="{{Route('diskusiTopic')}}">Membahas perubahan di lingkungan sekitar kita dan meningkatkan upaya pencegahan kerusakan alam!</a>
             <!-- /DISCUSSION PREVIEW TITLE -->
 
 
@@ -135,7 +135,7 @@
               <!-- /DISCUSSION PREVIEW META TEXT -->
 
               <!-- DISCUSSION PREVIEW META TEXT -->
-              <p class="discussion-preview-meta-text"><a href="#">Rico Wijaya</a> 2 months ago</p>
+              <p class="discussion-preview-meta-text"><a href="#"> Rico Wijaya</a> 2 months ago</p>
               <!-- /DISCUSSION PREVIEW META TEXT -->
             </div>
             <!-- /DISCUSSION PREVIEW META -->
@@ -191,7 +191,7 @@
           <!-- DISCUSSION PREVIEW -->
           <div class="discussion-preview">
             <!-- DISCUSSION PREVIEW TITLE -->
-            <a class="discussion-preview-title" href="#">Diskusi bebas yuk bahas target usia bumi:)</a>
+            <a class="discussion-preview-title" href="{{Route('diskusiTopic')}}">Diskusi bebas yuk bahas target usia bumi:)</a>
             <!-- /DISCUSSION PREVIEW TITLE -->
 
             <!-- DISCUSSION PREVIEW META -->
@@ -271,7 +271,7 @@
           <!-- DISCUSSION PREVIEW -->
           <div class="discussion-preview">
             <!-- DISCUSSION PREVIEW TITLE -->
-            <a class="discussion-preview-title" href="#">Inspirasi baru dalam solusi mengenai sampah</a>
+            <a class="discussion-preview-title" href="{{Route('diskusiTopic')}}">Inspirasi baru dalam solusi mengenai sampah</a>
             <!-- /DISCUSSION PREVIEW TITLE -->
 
             <!-- DISCUSSION PREVIEW META -->
@@ -293,7 +293,7 @@
               <!-- /USER AVATAR -->
 
               <!-- DISCUSSION PREVIEW META TEXT -->
-              <p class="discussion-preview-meta-text"><a href="#">Rico Wijaya</a> 1 hour ago</p>
+              <p class="discussion-preview-meta-text"><a href="#"> Rico Wijaya</a> 1 hour ago</p>
               <!-- /DISCUSSION PREVIEW META TEXT -->
             </div>
             <!-- /DISCUSSION PREVIEW META -->
@@ -349,7 +349,7 @@
           <!-- DISCUSSION PREVIEW -->
           <div class="discussion-preview">
             <!-- DISCUSSION PREVIEW TITLE -->
-            <a class="discussion-preview-title" href="#">Ada yang tau kenapa gua jomblo?</a>
+            <a class="discussion-preview-title" href="{{Route('diskusiTopic')}}">Ada yang tau kenapa gua jomblo?</a>
             <!-- /DISCUSSION PREVIEW TITLE -->
 
             <!-- DISCUSSION PREVIEW META -->
@@ -427,7 +427,7 @@
           <!-- DISCUSSION PREVIEW -->
           <div class="discussion-preview">
             <!-- DISCUSSION PREVIEW TITLE -->
-            <a class="discussion-preview-title" href="#">Gerakan menanam pohon kembali dan penghijauan</a>
+            <a class="discussion-preview-title" href="{{Route('diskusiTopic')}}">Gerakan menanam pohon kembali dan penghijauan</a>
             <!-- /DISCUSSION PREVIEW TITLE -->
 
             <!-- DISCUSSION PREVIEW META -->
