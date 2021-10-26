@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+/* use Illuminate\Support\Facades\Auth; */
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,13 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::prefix('')->group(function(){
+Route::prefix('')->middleware('guest')->group(function(){
     Route::get('/', [UserController::class,'view_home'])->name('home');
     Route::get('/login', [UserController::class,'view_login'])->name('login');
+    Route::post('/add-new-account', [UserController::class,'save_register'])->name('add-data-user');
+    Route::post('/login-account', [UserController::class,'login_account'])->name('login-user');
+});
+
+Route::prefix('logged')->middleware('auth')->group(function() {
+    Route::get('/landing-page', [UserController::class, 'landing-page'])->name('landing_page');
 });
