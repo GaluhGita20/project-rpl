@@ -23,15 +23,21 @@ Route::prefix('')->group(function(){
     Route::get('/login', [UserController::class,'view_login'])->name('login');
 
     Route::post('/add-new-account', [RegistrationController::class,'save_register'])->name('addDataUser');
+
+    Route::post('/login-account', [LoginController::class,'login_account'])->name('loginUser');
     Route::post('/login-account', [LoginController::class,'login_account'])->name('loginUser');
 
+    Route::get('oauth/{driver}', [LoginController::class, 'redirect_to_provider'])->name('social.oauth');
+    Route::get('oauth/{driver}/callback', [LoginController::class, 'handle_provider_callback'])->name('social.callback');
+
     Route::get('/forum', [UserController::class,'view_forum'])->name('mainForum');
-    Route::get('/landing-page', [UserController::class, 'landing-page'])->name('landingPage');
-    Route::get('/list-topics', [UserController::class,'view_listTopic'])->name('listTopic');
-    Route::get('/diskusi-topik', [UserController::class,'view_diskusiTopic'])->name('diskusiTopic');
 });
+
 
 
 Route::prefix('logged')->middleware('auth')->group(function() {
     Route::get('/forum', [UserController::class,'view_forum'])->name('mainForum');
+    Route::get('/landing-page', [UserController::class, 'landing-page'])->name('landingPage');
+    Route::get('/list-topics', [UserController::class,'view_listTopic'])->name('listTopic');
+    Route::get('/diskusi-topik', [UserController::class,'view_diskusiTopic'])->name('diskusiTopic');
 });

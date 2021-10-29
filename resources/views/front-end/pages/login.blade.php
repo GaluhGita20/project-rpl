@@ -164,7 +164,7 @@
                 <!-- SOCIAL LINKS -->
                 <div class="social-links">
                     <!-- SOCIAL LINK -->
-                    <a class="social-link facebook" href="#">
+                    <a class="social-link facebook" href="{{route('social.oauth', 'facebook')}}">
                         <!-- ICON FACEBOOK -->
                         <svg class="icon-facebook">
                             <use xlink:href="#svg-facebook"></use>
@@ -173,6 +173,7 @@
                     </a>
                     <!-- /SOCIAL LINK -->
 
+                    {{-- Untuk Twitter sementara digunakan untuk link login ke google --}}
                     <!-- SOCIAL LINK -->
                     <a class="social-link twitter" href="#">
                         <!-- ICON TWITTER -->
@@ -184,7 +185,7 @@
                     <!-- /SOCIAL LINK -->
 
                     <!-- SOCIAL LINK -->
-                    <a class="social-link twitch" href="#">
+                    <a class="social-link twitch" href="{{route('social.oauth', 'google')}}">
                         <!-- ICON TWITCH -->
                         <svg class="icon-twitch">
                             <use xlink:href="#svg-twitch"></use>
