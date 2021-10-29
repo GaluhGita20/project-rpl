@@ -1,5 +1,6 @@
 <?php
 $title = "Main Forum";
+$page = "forum";
 ?>
 
 
@@ -9,6 +10,6 @@ $title = "Main Forum";
 
 
 
-<livewire:categories-forum />
+@include('front-end.components.categories-forum')
 
 @endsection
