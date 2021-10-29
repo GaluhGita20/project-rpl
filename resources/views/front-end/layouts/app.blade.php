@@ -14,15 +14,13 @@
   <!-- favicon -->
   <!-- <link rel="icon" href="img/favicon.ico"> -->
   <title>AyoBisa | {{$title}}</title>
-  <!-- Livewire -->
-  @livewireStyles
 </head>
 <body>
 
-  <livewire:loader />
-  <livewire:sidebar-forum />
-  <livewire:navbar-forum />
-  <livewire:bottom-bar-mobile />
+  @include('front-end.components.loader')
+  @include('front-end.components.sidebar-forum')
+  @include('front-end.components.navbar-forum')
+  @include('front-end.components.bottom-bar-mobile')
 
   @yield('content')
 
@@ -58,7 +56,5 @@
 <script src="../js/form/form.utils.js"></script>
 <!-- SVG icons -->
 <script src="../js/utils/svg-loader.js"></script>
-<!-- Livewire -->
-@livewireScripts
 </body>
 </html>
