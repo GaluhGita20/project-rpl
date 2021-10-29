@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Livewire\MainForum;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,6 @@ Route::prefix('')->group(function(){
     Route::get('/', [UserController::class,'view_home'])->name('home');
     Route::get('/login', [UserController::class,'view_login'])->name('login');
     Route::get('/forum', [UserController::class,'view_forum'])->name('mainForum');
-    Route::get('/list-topics', [UserController::class,'view_listTopic'])->name('listTopic');
-    Route::get('/diskusi-topik', [UserController::class,'view_diskusiTopic'])->name('diskusiTopic');
+    Route::get('/forum/{id}/list-topics/', [UserController::class,'view_listTopic'])->name('listTopic');
+    Route::get('/forum/diskusi-topik', [UserController::class,'view_diskusiTopic'])->name('diskusiTopic');
 });

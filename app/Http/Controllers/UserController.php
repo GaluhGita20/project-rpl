@@ -22,7 +22,7 @@ class UserController extends Controller
         return view('front-end.pages.main-forum');
     }
 
-    public function view_listTopic()
+    public function view_listTopic($id)
     {
         return view('front-end.pages.list-topics');
     }

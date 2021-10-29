@@ -8,6 +8,6 @@ class NavbarForum extends Component
 {
     public function render()
     {
-        return view('livewire.navbar-forum');
+        return view('livewire.components.navbar-forum');
     }
 }

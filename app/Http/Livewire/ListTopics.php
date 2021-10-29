@@ -8,6 +8,6 @@ class ListTopics extends Component
 {
     public function render()
     {
-        return view('livewire.list-topics');
+        return view('livewire.components.list-topics');
     }
 }
