@@ -31,14 +31,14 @@ return [
     ],
 
     'google' => [
-        'client_id'     => '314740964698-nenmaa116faljh77l4uncrg3n3qnkebo.apps.googleusercontent.com',
-        'client_secret' => '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',
+        'client_id'     => 'GOOGLE_CLIENT_ID',
+        'client_secret' => 'GOOGLE_CLIENT_SECRET',
         'redirect'      => 'http://127.0.0.1:8000' . '/oauth/google/callback',
     ],
 
     'facebook' => [ 
-        'client_id'     => '596055661516426',
-        'client_secret' => '35ce93aca88794ca0dd8ca69570271b1',
+        'client_id'     => 'FACEBOOK_CLIENT_ID',
+        'client_secret' => 'FACEBOOK_CLIENT_SECRET',
         'redirect'      => 'http://127.0.0.1:8000' . '/oauth/facebook/callback',
     ],
 ];
