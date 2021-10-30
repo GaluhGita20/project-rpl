@@ -24,7 +24,7 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="/css/bootstrap-icons.css"> -->
 
     <!-- ======= Bootstrap CSS ======= -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -40,6 +40,12 @@
 
     <!-- ======= Custom Stylesheet ======= -->
     <link rel="stylesheet" href="/css/custom.css">
+
+    <!-- Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </head>
 
@@ -59,7 +65,7 @@
   
 
   <!-- Back to Top Button -->
-  <a href="#" class="back-to-top">
+  <a href="#" class="back-to-top" style="background-color: rgba(47, 57, 84, 0.6);">
       <i class="fas fa-angle-up"></i>
   </a>
 

@@ -51,6 +51,7 @@
         <div class="col text-sm-center logo-holder">
           <!-- Logo -->
           <a href="index.html" class="logo">
+            <!-- Info!!! Belum input logo -->
             <img src="assets/img/logo.png" data-rjs="2" alt="">
           </a>
           <!-- End Logo -->
